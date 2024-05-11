@@ -8,7 +8,7 @@ exports.getPosts = (req, res, next) => {
     });
 };
 
-exports.createPosts = (req, res, next) => {
+exports.createPost = (req, res, next) => {
     // Create post in db
     const title = req.body.title;
     const content = req.body.content;
